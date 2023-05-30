@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+.custom-link {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-link:hover {
+    background-color: #0d6efd;
+    color: white;
+    border: solid white 1px;
+}
